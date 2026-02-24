@@ -1,0 +1,36 @@
+{
+  "name": "projeto_iff_aula_qc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:setup": "node scripts/setupDatabase.js",
+    "db:reset": "node scripts/setupDatabase.js reset",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardorsolar/projeto_iff_aula_QC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/leonardorsolar/projeto_iff_aula_QC/issues"
+  },
+  "homepage": "https://github.com/leonardorsolar/projeto_iff_aula_QC#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
